@@ -1,0 +1,100 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+} 
+
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+*{
+     background-image: none;
+     background-color: transparent;
+}
+
+nav, main{
+     color: white;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+nav {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+}
+
+footer {
+     width: 100%;
+}
+
+.welcome{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     color: black;
+     margin: 1rem;
+     
+}
+
+.primo{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+
+.headline{
+     width: 50%;
+}
+
+.container{
+     width: 25%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+nav{
+     background-color: black;
+}
+
+a{
+     color: aliceblue;
+     border-left: solid 1px gray;
+     padding: 5px;
+}
+
+.headline{
+     background-image: url('http://127.0.0.1:3000/css/home/headline.png');
+     background-size: cover;
+     padding: 16rem 1rem .5rem 1rem;
+     margin: 1rem;
+}
+
+.box{
+     background-image: url('http://127.0.0.1:3000/css/home/4box.png');
+     background-size: cover;
+     padding: 8rem 1rem 1rem 1rem;
+     margin: 1rem 1rem 1rem 0;
+}

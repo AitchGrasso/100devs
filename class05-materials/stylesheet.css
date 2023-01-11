@@ -1,0 +1,22 @@
+*{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+header{
+    height: 150px;   
+    width: 100%;
+}
+
+section{
+    width: 33%;
+    height: 250px;
+    float: left;
+}
+
+footer{
+    height: 150px;
+    width: 100%;
+    clear: both;
+}

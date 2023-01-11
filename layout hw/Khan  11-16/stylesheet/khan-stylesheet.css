@@ -1,0 +1,44 @@
+/* =======Background====== */
+*{
+    margin: auto;
+    border: 1px solid #4DCD50;
+}
+
+body{
+    align-content: center;
+}
+
+*{
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+/* =======Layout====== */
+header, main, section{
+    width:100%
+    
+}
+
+.main, main > section{
+    width: 25%;
+}
+
+main > section > h1,h4, div{
+    float: left;
+}
+img{
+    height: auto;
+    max-width: 70%;
+}
+
+.col-1-3{
+    width: 33.33%;
+    float: left;
+}
+
+/* =======Header====== */
+
+header{
+    border-bottom: solid 1px #E0E2E3;
+    height: 54.31px;
+}

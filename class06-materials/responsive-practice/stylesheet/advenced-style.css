@@ -1,0 +1,56 @@
+@media all and (max-width: 420px) {
+    section, aside {
+        float: none;
+        width: auto;
+    }
+}
+
+body {
+    color: #fff;
+    font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+  .container:before,
+  .container:after {
+    content: "";
+    display: table;
+}
+  .container:after {
+    clear: both;
+}
+  .container {
+    background: #eaeaed;
+    width: 538px;
+    *zoom: 1;
+}
+  .container,
+  section,
+  aside {
+    border-radius: 6px;
+}
+  section,
+  aside {
+    background: #2db34a;
+    margin: 10px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    width: 1000px
+}
+
+section,
+aside {
+    /* margin: 10px;  */
+    /* margin: 1.858736059%; 10px / 538px = 018587361 */
+}
+
+section {
+    float: left;
+    width: 63.197026%;
+}
+aside {
+    float: right;
+    width: 29.3680297%;
+}
+

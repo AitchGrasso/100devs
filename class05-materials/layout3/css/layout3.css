@@ -1,0 +1,23 @@
+*{
+    border: 1px solid crimson;
+    box-sizing: border-box;
+}
+
+header, footer {
+    width: 100%;
+    height: 100px;
+    clear: both;
+}
+
+nav, section, article, aside{
+    float: left;
+    height: 500px;
+    
+}
+
+nav, article, aside{
+    width: 20%;
+}
+section{
+    width: 40%;
+}

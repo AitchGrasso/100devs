@@ -1,0 +1,421 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html{
+     background-image: url('https://ayesha.dropletthemes.com/wp-content/uploads/2019/08/aeaeaeaeaeae.jpg');
+     background-size: contain;
+     background-repeat: no-repeat;
+     font-size: 16px;
+     /* display: flex;
+     flex-direction: column;
+     align-items: center; */
+     
+}
+
+body{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+h1, h2, h3, h4, h5{
+     padding: 0;
+     margin: 0;
+     line-height: normal;
+}
+
+/* *{
+     border: red solid 1px;
+}
+
+div{
+     border: purple solid 5px;
+}
+
+section{
+     border: blue solid 5px
+} */
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.big{
+     padding: 11rem 1rem 2rem 7rem;
+}
+
+.coupon{
+     margin: 2rem 0 2rem 7rem;
+}
+
+
+.big, .small{
+     display: flex;
+     justify-content: space-between;
+}
+
+body{
+     justify-content: center;
+}
+
+.quality > div{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     margin-left: 10rem;
+     margin-right: 10rem;
+}
+
+.quality > div > div{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 1rem;
+     padding: 2rem;
+
+}
+
+.media > div > div{
+     width: 50%;
+     max-height: 75%;
+}
+
+.media > div{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     margin-left: 10rem;
+     margin-right: 10rem;
+}
+
+.style-title{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 2rem;
+}
+
+.stylist-container{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+}
+
+
+
+/******************************************
+/* Typography
+/*******************************************/
+
+html{
+     font-family: 'Cinzel', serif;
+     font-weight: 500;
+}
+
+h1{
+     font-size: 7rem;
+     font-weight: 300;
+     line-height: 7rem;
+     margin: 0;
+}
+
+h2, h3, h4, h5, aside, p{
+     font-weight: 500;
+     letter-spacing: 2px;
+}
+
+h5{
+     letter-spacing: 3px;
+}
+
+h2{
+     font-size: 2rem;
+}
+
+header, a:link{
+     font-size: .7rem;
+     color: black;
+     text-decoration: none;
+}
+
+p{
+     font-family: 'Roboto', serif;
+     font-size: .80rem;
+     line-height: 1.5rem;
+}
+
+/******************************************
+/* Buttons
+/*******************************************/
+
+div>.btn-blk{
+     color: white;
+     background-color: black;
+     padding: 1rem;
+
+}
+
+.btn-wht{
+     background-color: white;
+     color: black;
+     padding: 1rem;
+     margin-top: 5rem;
+}
+
+/********************************************
+/* Header
+/*******************************************/
+
+
+header{
+     background-color: white;
+     padding-right: 3rem;
+}
+
+.logo{
+     scale: 80%;
+     margin-left: 3rem;
+}
+
+nav > a{
+     padding: 0 2rem 0 2rem;
+}
+
+nav > a:last-child, nav > a:nth-child(7){
+     padding: 0 1rem 0 1rem;
+}
+
+
+/******************************************
+/* Headline
+/*******************************************/
+
+.headline{
+     color: white;
+}
+
+.big > div > h5, .coupon > h4:last-of-type, .coupon > h5{
+     padding: 1rem 0 2rem 0 ;
+}
+
+aside{
+     writing-mode: vertical-rl;
+     text-orientation: mixed;
+}
+
+.coupon{
+     background-color: black;
+     padding: 3rem 1rem 3rem 1rem;
+     font-size: smaller;
+}
+
+.arrows{
+     display: flex;
+     align-items: flex-end;
+     margin-right: 5rem;
+     margin-bottom: 3rem;
+}
+
+.arrows > a{
+     background-color: white;
+     padding: 1rem;
+     margin: 1rem;
+     border-radius: 50%;
+}
+
+.arrows > a > i{
+     display: flex;
+     color: black;
+     font-size: .7rem;
+}
+
+/******************************************
+/* Quality
+/*******************************************/
+
+
+.quality > div > div > h4{
+     font-weight: 600;
+}
+
+.quality > div > div > p{
+     text-align: center;
+}
+
+.quality-3{
+     padding-bottom: 2rem;
+}
+
+/******************************************
+/* Media
+/*******************************************/
+
+.media{
+     background-color: rgb(199, 199, 199);
+}
+
+.media-v{
+     /* max-width: 100%;
+     max-height: 100%; */
+     /* padding: 6rem 3rem 6rem 0; */
+     background-image: url('https://ayesha.dropletthemes.com/wp-content/uploads/2019/08/Home3-Video.jpg');
+     background-size: cover;
+     filter: grayscale(50%);
+     margin-right: 3rem;
+}
+
+
+.fa-play{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: auto;
+     padding: 8rem 0 8rem 0;
+     font-size: 4rem;
+     color: white;
+}
+
+.media-p {
+     padding: 3rem;
+     margin: 3rem;
+}
+
+/* .media{
+     line-height: 2rem;
+     font-size: .80rem;
+} */
+
+/******************************************
+/* STYLEIST
+/*******************************************/
+
+
+
+.style-1{
+     background: url('https://ayesha.dropletthemes.com/wp-content/uploads/2019/08/Styler-01.jpg') no-repeat center;
+
+}
+
+.style-2{
+     background: url('https://ayesha.dropletthemes.com/wp-content/uploads/2019/08/Styler-02.jpg') no-repeat center;
+}
+
+.style-3{
+     background: url('https://ayesha.dropletthemes.com/wp-content/uploads/2019/08/Styler-03.jpg') no-repeat center;
+ 
+}
+
+.style-1,.style-2,.style-3{
+     background-size: cover;
+     background-size: 90%;
+     max-width: 25%;
+     /* max-height: 30%; */
+     margin: 1rem;
+}
+
+.sty{
+     color: white;
+     background-color: black;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 0 3rem 4rem 3rem;
+     padding: 1rem;
+}
+
+.sty > h5{
+     font-size: .70rem;
+}
+
+.style-1 > img, .style-2 > img, .style-3 > img {
+     opacity: 0;
+     transform: scale();
+}
+
+/******************************************
+/* COLOUR
+/*******************************************/
+
+.colour-container{
+     display: flex;
+     /* padding: 3rem 6rem 3rem 2rem; */
+     margin: 2rem 10rem 2rem 10rem;
+     background-image: url('https://ayesha.dropletthemes.com/wp-content/uploads/2019/08/Promo-Banner-Image.jpg?id=4553');
+}
+
+.colourtext{
+     margin: 6rem 12rem 6rem 4rem;
+     background-image: none;
+}
+
+.colourtext > h5, .colourtext > h2{
+     padding: 1rem 0 1rem 0;
+     margin-bottom: 2rem;
+     line-height: 150%;
+}
+
+/******************************************
+/* Gallery
+/*******************************************/
+
+.gallery{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+
+.gal-1,
+.gal-2,
+.gal-3{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     max-width: 20%;
+     margin: .5rem;
+}
+
+.img-G, .img-M{
+     width: 100%;
+     border-radius: 5px;
+     height: 100%;
+     max-width: 16rem;
+     object-fit: cover;
+     margin-top: .5rem;
+     margin-bottom: .5rem;
+}
+
+.img-M{
+     max-height: 30rem;
+}

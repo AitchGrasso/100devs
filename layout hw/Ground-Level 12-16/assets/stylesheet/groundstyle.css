@@ -1,0 +1,133 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/* article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}  */
+
+/* viewport width: 1024px */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* =============Layout============== */
+
+
+.pre{
+    float: left;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.d-btn{
+    float: right;
+    padding-top: 1rem;
+}
+
+nav{
+  padding: 0rem 2rem 1rem 2rem;
+  text-align: center;
+  overflow: auto;
+}
+
+img{
+    margin-right: 5%;
+}
+
+
+/* =============Main Style============== */
+
+header, main{
+    background-color: #66768A;
+    color: #F1F1F1;
+}
+
+main{
+    clear: both;
+    text-align: center;
+}
+section{
+    color: #161F2A;
+    text-align: center;
+}
+
+.why, .vol{
+    background-color: #FFFFFF;
+}
+
+.row{
+    background-color: #DBDFE2;
+}
+.row-q-2{
+    width: 50%;
+    float: left;
+}
+
+
+/* =============Typography============== */
+
+h1, h2, h3, h4, h5{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1{
+    padding:20px 0 10px 0;
+    font-size: 1rem;
+}
+
+/* =============Button Style============== */
+
+/* =============Header============== */
+
+/* =============Donate Button============== */
+
+
+
+/* =============Section============== */

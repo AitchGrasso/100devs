@@ -1,0 +1,28 @@
+header, section,aside, article,footer{
+    border: .5px blueviolet solid;
+}
+
+header{
+    height: 125px;
+    width: 100%;
+}
+
+section{
+    height: 250px;
+    width: 100%;
+}
+aside{
+    height: 250px;
+    width: 40%;
+}
+article{
+    height: 250px;
+    width: 59.7%;
+}
+aside, article{
+    float: left;
+}
+footer{
+    height: 125px;
+    clear: both;
+}

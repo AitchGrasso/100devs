@@ -1,0 +1,85 @@
+
+/*==== Backgorund ===========*/
+html{
+    background-color: #87CEEB;
+    margin: auto;
+    margin-top: 40px;
+    padding: 40px;
+    border: 5px solid #4DCD50;
+    width: 550px;
+    /* align-self: auto; */
+    /* display: inline-block; */
+}
+
+img{
+    max-width: 35%;
+    float: right;
+}
+
+/*==== Font Styles ==========*/
+
+html{
+    color: white;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Tiro Tamil', serif;
+    font-weight: lighter;
+}
+
+h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 16px;
+}
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+a{
+    color: #4DCD50;
+    text-decoration: underline;
+}
+
+li{
+    padding: 0 5px 0 5px;
+    
+}
+
+ul > a:last-child, a:not(:first-child):not(:last-child), ul > li:last-child  {
+    border-left: black solid 2px;
+}
+
+/*==== Header ===========*/
+header{
+    text-align: center;
+}
+
+/*==== Nav ==========*/
+nav{
+    text-align: center;
+} 
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+ul > li::after{
+    border-left: black solid 1px;
+}
+
+footer > 
+
+/*==== Section ==========*/
+
+section > section{
+    align-content: left;
+}
