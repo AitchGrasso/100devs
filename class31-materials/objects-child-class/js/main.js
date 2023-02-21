@@ -15,3 +15,12 @@ class Pig extends Animal{
 }
 
 let wilbur = new Pig('Wilbur', 'Delicious')
+
+class Goat extends Animal{
+    constructor(name, age){
+        super(name)
+        this.age = age
+    }
+}
+
+let billy = new Goat('Billy the Kid', 1)
