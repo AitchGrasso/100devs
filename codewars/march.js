@@ -47,3 +47,31 @@ function isIsogram(str){
   return true
 }
 
+// DATE: 3-6
+// NAME: Disemvowel Trolls
+// KYU: 7
+// INSTRUCTION: Trolls are attacking your comment section!
+// A common way to deal with this situation is to remove all of the vowels from the trolls' comments, neutralizing the threat.
+// Your task is to write a function that takes a string and return a new string with all vowels removed.
+// For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
+// Note: for this kata y isn't considered a vowel.
+// STATUS: COMPLETE
+// ISSUE: change || to &&
+
+function disemvowel(str) {
+  //take a string
+  //loop through string (keep case in mind)
+  let answer = ""
+  for (let i = 0; i < str.length; i++){
+      //if statement to catch vowels, only need one if
+    if(str[i] !== 'a' && str[i] !== 'A' && str[i] !== 'e' && str[i] !== 'E' && str[i] !== 'i' && str[i] !== 'I' && str[i] !== 'o' && str[i] !== 'O' && str[i] !== 'u' && str[i] !== 'U'){
+      answer += str[i]
+    }else{
+      continue
+    }
+  }
+  return answer
+  //if statement to catch vowels, only need one if
+  //end of function will be returnbing the string
+}
+
