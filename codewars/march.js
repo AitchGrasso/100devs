@@ -75,3 +75,33 @@ function disemvowel(str) {
   //end of function will be returnbing the string
 }
 
+function disemvowel(str) {
+  return str.replace(/[aeiou]/gi, '');
+}
+
+//BEST PRACTICE: 
+const vowels = 'aeiou';
+
+function disemvowel(str) {
+  return str
+    .split('')
+    .filter(letter => !vowels.includes(letter.toLowerCase()))
+    .join('');
+}
+
+//https://javascript.info/object
+
+let user = {
+  name: 'John',
+  surname: 'Smith'
+}
+
+user.name = Pete;
+delete user.name;
+
+//check for emptiness: 
+function isEmpty(obj){
+  if (key in obj == undefined){
+    return true
+  }
+}
