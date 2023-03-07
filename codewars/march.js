@@ -105,3 +105,28 @@ function isEmpty(obj){
     return true
   }
 }
+
+// DATE: 3/7
+// NAME: List Filtering
+// KYU: 7
+// INSTRUCTION: In this kata you will create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.
+// STATUS: COMPLETE
+// ISSUE: using Filter
+
+function filter_list(l) {  
+    function isNum(ele) {
+      for (let i = 0; 1 > i; i++) {
+        if (typeof ele !== 'number') {
+          return false;
+        }
+      }
+      return ele <= Infinity;
+      }
+  
+  return(l.filter(isNum))
+}
+
+//Better solution: 
+function filter_list(l) {
+  return l.filter(v => typeof v == "number")
+ }
