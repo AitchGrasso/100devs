@@ -16,6 +16,8 @@ function getFetch(){
       .then(res => res.json()) // parse response as JSON
       .then(data => {
             data.subclasses.forEach(obj => {
+                
+
                 console.log(obj.name);
                 //create an li
                 const li = document.createElement('li')
@@ -25,6 +27,10 @@ function getFetch(){
                 li.textContent = obj.name
                 //append li to the ul
                 document.querySelector('ul').appendChild(li)
+
+                if(ul.hasChildNodes()){
+                    ul.innerText = "";
+                }
 
             });
         // document.querySelector('h3').innerHTML = data.classes.name
@@ -37,5 +43,5 @@ function getFetch(){
 
 
 
-// document.querySelector('button').addEventListener('click', remove)
+// document.querySelector('button').addEventListener('click', checkRemove)
 
