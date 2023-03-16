@@ -206,3 +206,7 @@ function findOdd(A) {
     }
   }
 }
+
+var isSquare = function(n){
+  return false; // fix me
+}
