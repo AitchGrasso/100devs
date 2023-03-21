@@ -1,0 +1,54 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: green;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+h1{
+  font-size: 5rem;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 186px;
+  height: 271px;
+  background-color: white;
+  border-radius: 5px;
+
+}
+
+.guess h2{
+  font-size: 3rem;
+}
+
+.result{
+  font-size: 5rem;
+
+}
+
+.hidden{
+  display: none;
+}
+
+img{
+  max-width: 100%;
+  border-radius: 5px;
+  display: none;
+}
