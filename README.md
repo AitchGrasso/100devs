@@ -1,2 +1,2 @@
-# 100devs
+# 100devs Resources
 Homework and Classwork
