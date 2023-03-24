@@ -210,3 +210,24 @@ function findOdd(A) {
 var isSquare = function(n){
   return false; // fix me
 }
+
+// DATE: 3/24
+// NAME: Descending Order
+// KYU: 7
+// INSTRUCTION: Your task is to make a function that can take any non-negative integer as an argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.
+// STATUS: COMPLETE
+// ISSUE: difficulty with .split
+
+//   p - n = non-negative int aka 0 <= n, (q: how many numbers can be in a string?)
+//   r - return digits in decending order, if there are more than one of the same, order does not matter
+//   e - 129807 -> 012789, 
+//   p - Parse into array, sort (a,b){ a-b}?, back to string, and then number
+
+function descendingOrder(n){
+  return Number(Array.from(String(n), Number ).sort((a,b) =>{ return b - a }).join(""))
+}
+
+//best answer:
+function descendingOrder(n){
+  return parseInt(String(n).split('').sort().reverse().join(''))
+}
