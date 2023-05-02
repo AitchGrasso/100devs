@@ -32,7 +32,7 @@ function findSmallestInt(args){
 
 function removeChar(str){
     return str.slice(1,-1)
-  };
+};
 
 // NAME:String repeat
 // KYU: 8
@@ -46,4 +46,15 @@ function repeatStr (n, s) {
       string += s
     }
     return string
+}
+
+// NAME:Remove String Spaces
+// KYU: 8
+// INSTRUCTION:
+// STATUS:DONE
+// ISSUE:
+
+
+function noSpace(x) {
+    return x.replaceAll(' ', '');
   }

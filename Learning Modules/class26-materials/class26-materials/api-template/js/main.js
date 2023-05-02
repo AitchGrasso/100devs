@@ -2,8 +2,8 @@
 document.querySelector('button').addEventListener('click', getFetch)
 
 function getFetch(){
-  const choice = document.querySelector('input').value
-  const url = 'https://pokeapi.co/api/v2/pokemon/'+choice
+  const num = document.querySelector('input').value
+  const url = 'https://fakestoreapi.com/products/'+num
 
   fetch(url)
       .then(res => res.json()) // parse response as JSON
