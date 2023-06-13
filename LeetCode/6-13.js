@@ -9,7 +9,7 @@ var merge = function(nums1, m, nums2, n) {
     nums1.splice(m)
     nums2.splice(n)
     nums1.push(...nums2)
-    nums1.sort()
+    nums1.sort(function(a,b){return a - b})
   };
   
   ///P: num 1 (array), num 2 (array), m is numbers to be merged of nums1 and n is numbers to be merged of nums2
