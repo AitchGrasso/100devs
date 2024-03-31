@@ -35,3 +35,17 @@ function isPangram(string){
       return string.indexOf(x) !== -1;
     });
   }
+
+function openOrSenior(data){
+    let stats = []
+    for (let i = 0; i < data.length; i++){
+      let age = data[i][0]
+      let handicap = data[i][1]
+      if(age >= 55 && handicap > 7){
+        stats.push('Senior')
+      }else{
+        stats.push('Open')
+      }
+    }
+      return stats
+  }
